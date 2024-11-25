@@ -6,6 +6,7 @@
         {
             InitializeComponent();
         }
+        //yes
 
         private void textBox4_TextChanged(object sender, EventArgs e)
         {
@@ -14,7 +15,7 @@
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            MessageBox.Show("แฮนโล้", "โค้ดเร็ว,ข้อความ", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
